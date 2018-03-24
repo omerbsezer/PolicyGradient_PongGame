@@ -2,7 +2,7 @@
 Policy gradient network is implemented using popular atari game, Pong Game. 
 
 
-
+![ponggamescr](https://user-images.githubusercontent.com/10358317/37865988-2e288d68-2f95-11e8-8c38-762a156c20f4.png)
 
 
 
