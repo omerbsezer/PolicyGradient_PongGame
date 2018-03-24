@@ -16,8 +16,10 @@ Policy Gradient Neural Network, based on Andrej’s solution, will do:
 - after each episodes have finished, sum up the gradient and move the weights in the direction of the gradient.
 - repeat this process until weights are tuned to the point
 
+# PongGame Experiment Results
+After a period time, scores are getting better.
 
-
+![ponggamescoreep_1](https://user-images.githubusercontent.com/10358317/37867469-1fcd5144-2faa-11e8-9ac6-665ef332519e.png)
 
 
 References: 
@@ -38,6 +40,6 @@ https://medium.com/@dhruvp/how-to-write-a-neural-network-to-play-pong-from-scrat
 
 
 
-# PongGame
+
 
 ![ponggamescr](https://user-images.githubusercontent.com/10358317/37865988-2e288d68-2f95-11e8-8c38-762a156c20f4.png)
