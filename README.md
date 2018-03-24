@@ -22,6 +22,9 @@ After a period time, scores are getting better.
 ![ponggamescoreep_1](https://user-images.githubusercontent.com/10358317/37867469-1fcd5144-2faa-11e8-9ac6-665ef332519e.png)
 
 
+![ep110_630_result](https://user-images.githubusercontent.com/10358317/37867530-00dc106c-2fab-11e8-85be-fd41107abc5c.png)
+
+
 **References**: 
 
 Policy Gradients Method: http://www.scholarpedia.org/article/Policy_gradient_methods
