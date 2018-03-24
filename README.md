@@ -1,5 +1,5 @@
 # Policy Gradient Implementation Using Gym and Tensorflow
-Policy gradient network is implemented using popular atari game, Pong Game.  "Policy gradients method involves running a policy for a while, seeing what actions lead to high rewards, increasing their probability through backpropagating gradients"
+Policy gradient network is implemented using popular atari game, Pong Game.  "Policy gradients method involves running a policy for a while, seeing what actions lead to high rewards, increasing their probability through backpropagating gradients". If there is a large scale problems which is aimed to solve, a type of function approximator should be used. In this problem, a neural network is used as function approximator. There are too many states and/or actions to store in memory, so look up table can not be used.
 
 ![policies](https://user-images.githubusercontent.com/10358317/37866273-95673610-2f99-11e8-989f-98b2b77eef54.png)
 
