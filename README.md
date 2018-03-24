@@ -1,6 +1,9 @@
 # Policy Gradient Implementation Using Gym and Tensorflow
 Policy gradient network is implemented using popular atari game, Pong Game.  "Policy gradients method involves running a policy for a while, seeing what actions lead to high rewards, increasing their probability through backpropagating gradients"
 
+![policies](https://user-images.githubusercontent.com/10358317/37866273-95673610-2f99-11e8-989f-98b2b77eef54.png)
+
+
 Andrej Karpathy (Deep Reinforcement Learning: Pong from Pixels): http://karpathy.github.io/2016/05/31/rl/
 
 Policy Gradient Neural Network, based on Andrej’s solution, will do:
@@ -12,6 +15,9 @@ Policy Gradient Neural Network, based on Andrej’s solution, will do:
 - when the episode has finished, pass the result through the backpropagation algorithm to compute the gradient for weights.
 - after each episodes have finished, sum up the gradient and move the weights in the direction of the gradient.
 - repeat this process until weights are tuned to the point
+
+
+
 
 
 References: 
