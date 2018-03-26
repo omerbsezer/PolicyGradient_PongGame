@@ -28,12 +28,13 @@ After a period time, scores are getting better.
 
 ![ep110_630_result](https://user-images.githubusercontent.com/10358317/37867530-00dc106c-2fab-11e8-85be-fd41107abc5c.png)
 
-After 2 days running, system is learned and starting to beat opponent 
+After 2 days running, system is learned and starting to beat opponent. Last saved checkpoint which is learned after 2days is committed in the checkpoint folder. When starting code in your environment, if there is a checkpoint point folder, it will be loaded..
 
 ![ponggamescoreep_2](https://user-images.githubusercontent.com/10358317/37897631-4857bea6-30ef-11e8-8acf-3de195a6c93e.png)
 
 
 ![ep5005_5560_result](https://user-images.githubusercontent.com/10358317/37897701-79992c02-30ef-11e8-8b10-0ad463a87853.png)
+
 
 
 **References**: 
