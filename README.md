@@ -1,8 +1,11 @@
 # Policy Gradient Implementation Using Gym and Tensorflow
-Policy gradient network is implemented using popular atari game, Pong Game.  "Policy gradients method involves running a policy for a while, seeing what actions lead to high rewards, increasing their probability through backpropagating gradients". If there is a large scale problems which is aimed to solve, a type of function approximator should be used. In this problem, a neural network is used as function approximator. There are too many states and/or actions to store in memory, so look up table can not be used.
+Policy gradient network is implemented using popular atari game, Pong Game.  "Policy gradients method involves running a policy for a while, seeing what actions lead to high rewards, increasing their probability through backpropagating gradients". 
 
 ![policies](https://user-images.githubusercontent.com/10358317/37866273-95673610-2f99-11e8-989f-98b2b77eef54.png)
 
+If there is a large scale problems which is aimed to solve, a type of function approximator should be used. In this problem, a neural network is used as function approximator. There are too many states and/or actions to store in memory, so look up table can not be used.
+
+![policy](https://user-images.githubusercontent.com/10358317/37897767-a792bb64-30ef-11e8-988e-d7c8a697dea4.png)
 
 Andrej Karpathy (Deep Reinforcement Learning: Pong from Pixels): http://karpathy.github.io/2016/05/31/rl/
 
@@ -14,7 +17,8 @@ Policy Gradient Neural Network, based on Andrej’s solution, will do:
 - if the round is over, find whether you won or lost.
 - when the episode has finished, pass the result through the backpropagation algorithm to compute the gradient for weights.
 - after each episodes have finished, sum up the gradient and move the weights in the direction of the gradient.
-- repeat this process until weights are tuned to the point
+- repeat this process until weights are tuned to the point.
+
 
 # PongGame Experiment Results
 After a period time, scores are getting better.
@@ -23,6 +27,13 @@ After a period time, scores are getting better.
 
 
 ![ep110_630_result](https://user-images.githubusercontent.com/10358317/37867530-00dc106c-2fab-11e8-85be-fd41107abc5c.png)
+
+After 2 days running, system is learned and starting to beat opponent 
+
+![ponggamescoreep_2](https://user-images.githubusercontent.com/10358317/37897631-4857bea6-30ef-11e8-8acf-3de195a6c93e.png)
+
+
+![ep5005_5560_result](https://user-images.githubusercontent.com/10358317/37897701-79992c02-30ef-11e8-8b10-0ad463a87853.png)
 
 
 **References**: 
